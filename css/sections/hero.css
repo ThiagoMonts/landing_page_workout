@@ -24,7 +24,7 @@
     flex: 1;
     display: flex;
     flex-direction: row;
-    padding: 64px;
+    padding: 0 45px;
 }
 
 .hero-content-info {
@@ -45,6 +45,7 @@
 
 .hero-content-info p {
     font-family: var(--font-secondary);
+    text-align: justify;
     opacity: 0.8;
     font-size: 24px;
 }
