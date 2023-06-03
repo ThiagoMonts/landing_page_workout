@@ -11,6 +11,10 @@
     padding: 20px;
 }
 
+.header__logo span {
+    color: var(--color-button);
+}
+
 .header__logo-overlay {
     position: absolute;
     inset: 0;
