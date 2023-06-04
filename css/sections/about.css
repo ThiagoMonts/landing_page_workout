@@ -27,18 +27,19 @@
     display: flex;
     flex-direction: row;
     gap: 48px;
-    display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
 }
 
 .about-us__content-card {
     display: flex;
-    width: 350px;
+    width: 265px;
+    height: 180px;
+    justify-content: center;
     flex-direction: column;
     color: #fff;
-    padding: 48px;
+    padding: 36px;
     gap: 16px;
     font-family: var(--font-secondary);
     border-radius: 10px;
@@ -46,8 +47,8 @@
 }
 
 .about-us__content-card h3 {
-    font-size: 24px;
-    font-weight: 600;
+    font-size: 18px;
+    font-weight: bold;
 }
 
 .about-us__content-card-info {
@@ -57,8 +58,9 @@
 }
 
 .about-us__content-card-info p {
+    font-size: 15px;
     opacity: 0.7;
-    line-height: 24px;
+    line-height: 18px;
 }
 
 .about-us__content-card-info img {

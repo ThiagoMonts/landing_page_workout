@@ -58,7 +58,7 @@
 }
 
 .healthy__content-info-button p {
-    color: #0070C9;
+    color: var(--color-button);
 }
 
 .healthy__content-img {

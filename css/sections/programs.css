@@ -79,7 +79,7 @@
 }
 
 .programs__content-card-button p {
-    color: #0070C9;
+    color: var(--color-button);
 }
 
 .programs__content-card button {
@@ -88,5 +88,5 @@
     padding: 10px 24px;
     border-radius: 16px;
     color: #fff;
-    background: #0070C9;
+    background: var(--color-button);
 }
