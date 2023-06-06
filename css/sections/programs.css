@@ -11,7 +11,7 @@
 }
 
 .programs__content h2 {
-    font-size: 36px;
+    font-size: 2.25rem;
     color: var(--color-white);
     font-family: var(--font-secondary);
     border-bottom: 1px solid rgba(255, 255, 255, 0.5);
@@ -40,13 +40,13 @@
 }
 
 .programs__content-card h3 {
-    font-size: 36px;
+    font-size: 2.25rem;
     color: var(--color-white);
     text-align: center;
 }
 
 .programs__content-card p {
-    font-size: 16px;
+    font-size: 1rem;
     color: var(--color-white);
     text-align: justify;
     opacity: 0.8;
@@ -73,7 +73,7 @@
     border: none;
     background: transparent;
     font-family: var(--font-secondary);
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 700;
     cursor: pointer;
 }
@@ -89,4 +89,30 @@
     border-radius: 16px;
     color: #fff;
     background: var(--color-button);
+}
+
+@media screen and (max-width: 750px) {
+    .programs__content-cards {
+        flex-direction: column;
+        padding: 64px 32px;
+    }
+    
+    .programs__content-card {
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .programs__content-card {
+        width: 400px;
+        flex-direction: column;
+        padding: 36px;
+        gap: 24px;
+        font-family: var(--font-secondary);
+        border-radius: 20px;
+    }
+
+    .programs__content h2 {
+        text-align: center;
+    }
 }

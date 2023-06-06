@@ -12,13 +12,13 @@
 
 .about-us__content-title {
     font-family: var(--font-secondary);
-    font-size: 48px;
+    font-size: 3rem;
     color: var(--secondary-color);
-
 }
+
 .about-us__content-subtitle {
     font-family: var(--font-secondary);
-    font-size: 24px;
+    font-size: 1.5rem;
     opacity: 0.8;
     color: var(--secondary-color);
 }
@@ -47,7 +47,7 @@
 }
 
 .about-us__content-card h3 {
-    font-size: 18px;
+    font-size: 1.125rem;
     font-weight: bold;
 }
 
@@ -58,7 +58,7 @@
 }
 
 .about-us__content-card-info p {
-    font-size: 15px;
+    font-size: 0.9rem;
     opacity: 0.7;
     line-height: 18px;
 }
@@ -66,4 +66,31 @@
 .about-us__content-card-info img {
     width: 30px;
     height: 30px;
+}
+
+@media screen and (max-width: 750px) {
+    .about-us__content-cards {
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width: 550px) { 
+    .about-us__content {
+        padding: 48px;
+    }
+
+    
+    .about-us__content-cards {
+        flex-wrap: wrap;
+        gap: 24px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .about-us__content-card {
+        width: 220px;
+        height: 140px;
+        padding: 24px;
+        gap: 16px;
+    }
 }

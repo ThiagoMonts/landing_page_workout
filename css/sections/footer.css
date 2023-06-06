@@ -10,7 +10,7 @@
 }
 
 .footer__logo {
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: bold;
     font-family: var(--font-default);
     text-transform: uppercase;
@@ -40,7 +40,7 @@
 }
 
 .footer__nav li {
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 500;
     font-family: var(--font-secondary);
     text-transform: uppercase;
@@ -62,4 +62,18 @@
     height: 45%;
 
     object-fit: contain;
+}
+
+@media screen and (max-width: 750px) {
+    .footer {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 550px) { 
+    .footer {
+        display: flex;
+        justify-content: center;
+        flex: 1;
+    }
 }

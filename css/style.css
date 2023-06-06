@@ -64,7 +64,7 @@ a {
 }
 
 .workout__subtitle {
-  font-size: 18px;
+  font-size: 1.125rem;
   font-weight: 400;
   font-family: var(--font-secondary);
 
@@ -75,7 +75,7 @@ a {
 }
 
 .workout__title {
-  font-size: 64px;
+  font-size: 4rem;
   font-weight: 600;
   font-family: var(--font-default);
 
@@ -85,7 +85,7 @@ a {
 }
 
 .workout__description {
-  font-size: 18px;
+  font-size: 1.125rem;
   font-weight: 400;
   font-family: var(--font-secondary);
 
