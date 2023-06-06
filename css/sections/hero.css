@@ -92,6 +92,10 @@
 
 
 @media screen and (max-width: 750px) {
+    .hero {
+        padding: 20px 0;
+    }
+    
     .hero-content {
         flex-direction: column;
     }

@@ -67,6 +67,10 @@
 }
 
 @media screen and (max-width: 750px) { 
+    .healthy {
+        padding: 40px 0;
+    }
+    
     .healthy__content {
         flex-direction: column;
     }
@@ -83,6 +87,10 @@
 @media screen and (max-width: 550px) {
     .healthy__content-img img {
         width: 75%;
+    }
+
+    .healthy__content-img {
+        height: 400px;
     }
 
     .healthy__content-info {
