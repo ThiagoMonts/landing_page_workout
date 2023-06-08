@@ -1,6 +1,6 @@
 <h1 align="center"> Workout </h1>
 
-Projeto desenvolvido com HTML, CSS e Javascript a partir de um design criado no [FIGMA](https://www.figma.com/file/savnaf8IXwYKtXsMZtquem/Exploration-Workout-%26-Fitness---Landing-Page-(Community)?type=design&t=dLPTeNYETsqplp5f-6)
+Projeto desenvolvido com HTML, CSS e Javascript, tomando por base um design criado no [FIGMA](https://www.figma.com/file/savnaf8IXwYKtXsMZtquem/Exploration-Workout-%26-Fitness---Landing-Page-(Community)?type=design&t=dLPTeNYETsqplp5f-6), onde fiz algumas implementações e modificações.
 
 <p align="center">
   <a href="#-tecnologias">🚀 Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
