@@ -74,12 +74,21 @@
     }
 }
 
-@media screen and (max-width: 550px) { 
+@media screen and (max-width: 550px) {
     .about-us__content {
         padding: 48px;
     }
 
-    
+    .about-us__content-title {
+        text-align: center;
+        font-size: 2rem;
+    }
+
+    .about-us__content-subtitle {
+        font-size: 1rem;
+        text-align: center;
+    }
+
     .about-us__content-cards {
         flex-wrap: wrap;
         gap: 24px;
@@ -92,5 +101,10 @@
         height: 140px;
         padding: 24px;
         gap: 16px;
+    }
+
+    .about-us__content-card-info img {
+        width: 20px;
+        height: 20px;
     }
 }

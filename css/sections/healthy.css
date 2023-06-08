@@ -85,23 +85,26 @@
 }
 
 @media screen and (max-width: 550px) {
-    .healthy__content-img img {
-        width: 75%;
+    
+    .healthy__content {
+        padding: 0 36px;
     }
 
     .healthy__content-img {
-        height: 400px;
+        width: 300px;
+        height: 300px;
     }
-
-    .healthy__content-info {
-        width: 450px;
-    }
-
+    
     .healthy__content-info h2 {
-        font-size: 2rem;
+        font-size: 1.5rem;
+        text-align: center;
     }
 
     .healthy__content-info p {
-        font-size: 1rem;
+        font-size: 0.8rem;
+    }
+
+    .healthy__content-info-button img {
+        width: 20px;
     }
 }

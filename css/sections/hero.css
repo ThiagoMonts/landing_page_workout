@@ -19,7 +19,7 @@
     object-fit: contain;
 }
 
-.hero-content{
+.hero__content{
     color: var(--color-white);
     flex: 1;
     display: flex;
@@ -27,7 +27,7 @@
     padding: 0 16px;
 }
 
-.hero-content-info {
+.hero__content-info {
     padding: 64px;
     flex: 1;
     display: flex;
@@ -36,28 +36,29 @@
     gap: 36px;
 }
 
-.hero-content-info h1 {
+.hero__content-info h1 {
     font-size: 6rem;
     font-weight: 900;
     text-transform: uppercase;
     font-family: var(--font-secondary);
 }
 
-.hero-content-info p {
+.hero__content p {
     font-family: var(--font-secondary);
     text-align: justify;
     opacity: 0.8;
     font-size: 1.5rem;
 }
 
-.hero-content__button {
+.hero__content-button {
     margin: 41px 0 0 41px;
 
     display: flex;
     flex-wrap: wrap;
+
 }
 
-.hero-content__join-button {
+.hero__content-join-button {
     padding: 20px;
     border-radius: 10px;
     min-width: 212px;
@@ -72,18 +73,18 @@
     line-height: 23px;
 }
 
-.hero-content-info-sponsors {
+.hero__content-info-sponsors {
     display: flex;
     flex-direction: column;
     gap: 18px;
 }
 
-.hero-content-info-sponsors p {
+.hero__content-info-sponsors p {
     text-transform: uppercase;
     font-size: 1rem;
 }
 
-.hero-content-info-sponsors-logos {
+.hero__content-info-sponsors-logos {
     display: flex;
     flex-direction: row;
     gap: 36px;
@@ -96,41 +97,74 @@
         padding: 20px 0;
     }
     
-    .hero-content {
+    .hero__content {
         flex-direction: column;
     }
 
-    .hero-image {
-        display: none;
-    }
-
-    .hero-content__join-button {
+    .hero__content__join-button {
         padding: 14px;
         border-radius: 10px;
         min-width: 180px;
     }
     
-    .hero-content-info-sponsors-logos {
+    .hero__content-info-sponsors-logos {
         gap: 28px;
         padding: 12px 0;
     }
     
-    .hero-content-info-sponsors-logos {
+    .hero__content-info-sponsors-logos {
         flex-wrap: wrap;
     }
 
-    .hero-content-info-sponsors-logos img {
+    .hero__content-info-sponsors-logos img {
         width: auto;
         height: auto;
     }
 }
 
 @media screen and (max-width: 550px) {
-    .hero-content-info h1 {
-        font-size: 4rem;
+    .hero__content-info {
+        padding: 40px 36px;
+        width: 320px;
     }
 
-    .hero-content-info p {
-        font-size: 1.5rem;
+    .hero__content-info h1 {
+        font-size: 3rem;
+        text-align: center;
+    }
+
+    .hero__content-info p {
+        font-size: 1rem;
+    }
+
+    .hero__content-join-button {
+        padding: 10px;
+        min-width: 160px;
+        font-size: 1rem;
+    }
+
+    .hero__content-info-sponsors {
+        padding: 30px 0;
+    }
+    
+    .hero__content-info-sponsors p {
+        font-size: 0.9rem;
+        text-align: center;
+    }
+
+    .hero__content-info-sponsors-logos {
+        justify-content: center;
+    }
+    
+    .hero__image {
+        width: 300px;
+        padding: 0 0 0 35px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .hero__image img {
+        width: 90%;
     }
 }
