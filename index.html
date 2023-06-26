@@ -8,17 +8,26 @@
     <title>Workout</title>
   </head>
   <body>
-    <header id="header">
-      <a id="logo" href="">Work<span>out</span></a>
-      <nav id="nav">
-        <button aria-label="Abrir Menu" id="btn-mobile" aria-haspopup="true" aria-controls="menu" aria-expanded="false">
-          <span id="hamburger"></span>
-        </button>
-        <ul id="menu" role="menu">
+    <header>
+      <nav class="header__nav">
+        <div class="header__logo">
+          <h4 class="header__logo-name" data-aos="fade-down">
+            <span>Work</span>out
+          </h4>
+          <div class="header__logo-overlay"></div>
+        </div>
+
+        <ul class="header__menu" data-aos="fade-down">
           <li><a href="#home">Home</a></li>
           <li><a href="#about">About</a></li>
-          <li><a href="#healthy">Healthy Living</a></li>
+          <li><a href="#Healthy">Healthy Living</a></li>
           <li><a href="#programs">Programs</a></li>
+        </ul>
+
+        <ul class="header__menu-mobile" data-aos="fade-down">
+          <li>
+            <img src="assets/menu.svg" alt="menu">
+          </li>
         </ul>
       </nav>
     </header>
