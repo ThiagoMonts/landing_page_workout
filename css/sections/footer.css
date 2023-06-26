@@ -32,7 +32,7 @@
 }
 
 .footer li:hover {
-    color: var(--color-button);
+    color: #fff;
 }
 
 .footer ul:last-child {
